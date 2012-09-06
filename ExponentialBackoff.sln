@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExponentialBackoff", "ExponentialBackoff.csproj", "{7D7E8181-B57B-4B65-8BC0-77324AFFCD51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ECE5D9C5-ACC3-46B8-A855-83D705AF9B52}"
+	ProjectSection(SolutionItems) = preProject
+		ExponentialBackoff.vsmdi = ExponentialBackoff.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExponentialBackoff.UnitTest", "ExponentialBackoff.UnitTest\ExponentialBackoff.UnitTest.csproj", "{FA9CE422-CFF0-499D-AD3E-0696BB0C359E}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ExponentialBackoff.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D7E8181-B57B-4B65-8BC0-77324AFFCD51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7E8181-B57B-4B65-8BC0-77324AFFCD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7E8181-B57B-4B65-8BC0-77324AFFCD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7E8181-B57B-4B65-8BC0-77324AFFCD51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA9CE422-CFF0-499D-AD3E-0696BB0C359E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9CE422-CFF0-499D-AD3E-0696BB0C359E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9CE422-CFF0-499D-AD3E-0696BB0C359E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9CE422-CFF0-499D-AD3E-0696BB0C359E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
